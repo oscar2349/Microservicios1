@@ -28,7 +28,7 @@ public class Producto implements Serializable{
 	@Temporal(TemporalType.DATE)//
 	private Date createAt;
 	
-	@Transient
+	@Transient//para ver como ribbon seleccion un puerto disponible 
 	private Integer port;
 	
 	public Long getId() {

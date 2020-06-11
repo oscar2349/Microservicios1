@@ -16,7 +16,7 @@ import com.formacionbdi.springboot.app.productos.models.service.IProductoService
 @RestController
 public class ProductoController {
 	
-	//@Autowired
+	//@Autowired para visualizar el puesto que selecciona Ribon nada mas...
 	//private Environment env;
 	
 	@Value("${server.port}")

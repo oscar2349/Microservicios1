@@ -9,7 +9,7 @@ public class Producto {
 	private String nombre;
 	private Double precio;
 	private Date createAt;
-	private Integer port;
+	private Integer port;//para ver como Ribon Seleciona un puerto para balancear la carga
 
 	public Long getId() {
 		return id;

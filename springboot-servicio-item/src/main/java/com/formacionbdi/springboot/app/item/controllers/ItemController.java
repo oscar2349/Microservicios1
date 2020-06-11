@@ -11,11 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 import com.formacionbdi.springboot.app.item.models.Item;
 import com.formacionbdi.springboot.app.item.models.service.ItemService;
 
+//el ejercicio implemete de dos manera aca solo lo deje de una
+//la otra forma es usando rest Template
 @RestController
 public class ItemController {
 	
 	@Autowired
-	@Qualifier("serviceFeign")
+	@Qualifier("serviceFeign")//nombre dado en ItemServiceFeing
 	private ItemService itemService;
 	
 	@GetMapping("/listar")//Son las Rutas propias de este servicio
