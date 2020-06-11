@@ -17,7 +17,7 @@ import com.formacionbdi.springboot.app.item.models.service.ItemService;
 public class ItemController {
 	
 	@Autowired
-	@Qualifier("serviceFeign")//nombre dado en ItemServiceFeing
+	@Qualifier("serviceFeign")//nombre dado en ItemServiceFeing, Para RestTemplate Desargar Ejercicio Completo
 	private ItemService itemService;
 	
 	@GetMapping("/listar")//Son las Rutas propias de este servicio
